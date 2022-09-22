@@ -1,0 +1,32 @@
+/* USER DETAILS */
+.user-details {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.user-details__img {
+    margin-right: 10px;
+}
+
+.user-details__content h2,
+.user-details__content h3 {
+    margin: 0 0 3px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.user-details__content p {
+    margin: 0;
+    font-size: 11px;
+    color: #969696;
+}
+
+.user-details--big .user-details__content h2,
+.user-details--big .user-details__content h3 {
+    font-size: 13px;
+}
+
+.user-details--big .user-details__content p {
+    font-size: 12px;
+}

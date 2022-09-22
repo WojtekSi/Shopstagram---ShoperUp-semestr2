@@ -1,0 +1,31 @@
+/* PAGE HEADER */
+.page-header {
+    margin-bottom: 30px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.page-header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header__logo {
+    flex-shrink: 0;
+}
+
+.page-header__logo img {
+    display: block;
+}
+
+.page-header__search {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .page-header__search {
+        display: block;
+    }
+}

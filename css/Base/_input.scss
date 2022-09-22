@@ -1,0 +1,19 @@
+input {
+    height: 36px;
+    padding: 3px 15px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-input {
+    min-width: 250px;
+    background: #efefef url(../../images/icons/magnifier.svg) no-repeat 10px center;
+    background-size: 16px;
+    padding-left: 34px;
+    font-size: 14px;
+}

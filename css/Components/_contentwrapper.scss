@@ -1,0 +1,32 @@
+/* CONTENT WRAPPER */
+.content-wrapper__aside {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .content-wrapper {
+        display: flex;
+        margin: 0 -15px;
+    }
+
+    .content-wrapper__main,
+    .content-wrapper__aside {
+        padding: 0 15px;
+    }
+    
+    .content-wrapper__main {
+        width: 70%;
+    }
+
+    .content-wrapper__aside {
+        display: block;
+        flex: 1;
+    }
+
+    .content-wrapper__aside-user {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+}
