@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopstagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Source+Sans+Pro:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__wrapper">
+          <a class="page-header__logo" href="#">
+            <img src="./images/logo.svg" alt="Shopstagram logo" />
+          </a>
+
+          <div class="page-header__search">
+            <input class="search-input" placeholder="Szukaj" type="text" />
+          </div>
+
+          <nav class="page-nav">
+            <a href="#" class="page-nav__item">
+              <img src="./images/icons/home.svg" alt="Homepage" />
+            </a>
+
+            <a href="#" class="page-nav__item">
+              <img src="./images/icons/send.svg" alt="Send message" />
+            </a>
+
+            <a href="#" class="page-nav__item">
+              <img src="./images/icons/add.svg" alt="Add photo" />
+            </a>
+
+            <a href="#" class="page-nav__item">
+              <img src="./images/icons/heart.svg" alt="Likes" />
+            </a>
+
+            <a href="#" class="page-nav__item">
+              <div class="image-square image-square--tiny">
+                <img src="./images/users/user.jpeg" alt="user photo" />
+              </div>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container container--narrow">
+          <div class="content-wrapper">
+            <div class="content-wrapper__main">
+              <div class="stories-box">
+                <div class="stories-box__list">
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/john.jpeg" alt="John Doe" />
+                    </div>
+                    <span>John Doe</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/will.jpeg" alt="Will Smith" />
+                    </div>
+                    <span>Will Smith</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/johny.jpeg" alt="Johny Cage" />
+                    </div>
+                    <span>Johny Cage</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/lisa.jpeg" alt="Lisa" />
+                    </div>
+                    <span>Lisa</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/amanda.jpeg" alt="Amanda" />
+                    </div>
+                    <span>Amanda</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img
+                        src="./images/users/cristiano.jpeg"
+                        alt="Cristiano R"
+                      />
+                    </div>
+                    <span>Cristiano R</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/martha.jpeg" alt="Martha" />
+                    </div>
+                    <span>Martha</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/joanna.jpeg" alt="Joanna" />
+                    </div>
+                    <span>Joanna</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/mark.jpeg" alt="Marka Q." />
+                    </div>
+                    <span>Mark Q.</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/paul.jpeg" alt="Paul" />
+                    </div>
+                    <span>Paul</span>
+                  </a>
+
+                  <a class="stories-box__item" href="#">
+                    <div class="image-square is-active">
+                      <img src="./images/users/ursula.jpeg" alt="Ursula" />
+                    </div>
+                    <span>Ursula</span>
+                  </a>
+                </div>
+              </div>
+
+              <article class="post">
+                <div class="post__header">
+                  <div class="user-details">
+                    <div class="user-details__img">
+                      <div class="image-square image-square--small is-active">
+                        <img src="./images/users/john.jpeg" alt="John" />
+                      </div>
+                    </div>
+
+                    <div class="user-details__content">
+                      <h3>John Doe</h3>
+                      <p>Szczecin, Polska</p>
+                    </div>
+                  </div>
+
+                  <a href="#">
+                    <img src="./images/icons/menu.svg" alt="Menu" />
+                  </a>
+                </div>
+
+                <div class="post__content">
+                  <div class="post__img">
+                    <img
+                      src="./images/photos/gielda.jpeg"
+                      alt="Rekordowe wzrosty na gieldzie"
+                    />
+                  </div>
+
+                  <div class="post__details">
+                    <div class="post__actions">
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/heart.svg" alt="Like" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/comment.svg" alt="Comment" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/send.svg" alt="Share" />
+                      </a>
+                    </div>
+
+                    <div class="post__comments">
+                      <p>
+                        <strong>Liczba polubień: 2</strong>
+                      </p>
+
+                      <p class="post__comments-comment">
+                        <strong>Will Smith:</strong>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem sint veritatis omnis, quos magni ducimus enim
+                        officia praesentium itaque soluta ipsam delectus,
+                        voluptate quod culpa, temporibus a minus dicta
+                        necessitatibus!
+                        <a href="#">więcej</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="post__footer">
+                    <img src="./images/icons/smile.svg" alt="Add comment" />
+                    <input type="text" placeholder="Dodaj komentarz..." />
+                  </div>
+                </div>
+              </article>
+
+              <article class="post">
+                <div class="post__header">
+                  <div class="user-details">
+                    <div class="user-details__img">
+                      <div class="image-square image-square--small is-active">
+                        <img src="./images/users/lisa.jpeg" alt="Lisa" />
+                      </div>
+                    </div>
+
+                    <div class="user-details__content">
+                      <h3>Lisa</h3>
+                      <p>Kraków, Polska</p>
+                    </div>
+                  </div>
+
+                  <a href="#">
+                    <img src="./images/icons/menu.svg" alt="Menu" />
+                  </a>
+                </div>
+
+                <div class="post__content">
+                  <div class="post__img">
+                    <img
+                      src="./images/photos/stoisko.jpeg"
+                      alt="Targi e-commerce"
+                    />
+                  </div>
+
+                  <div class="post__details">
+                    <div class="post__actions">
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/heart.svg" alt="Like" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/comment.svg" alt="Comment" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/send.svg" alt="Share" />
+                      </a>
+                    </div>
+
+                    <div class="post__comments">
+                      <p>
+                        <strong>Liczba polubień: 2</strong>
+                      </p>
+
+                      <p class="post__comments-comment">
+                        <strong>Will Smith:</strong>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem sint veritatis omnis, quos magni ducimus enim
+                        officia praesentium itaque soluta ipsam delectus,
+                        voluptate quod culpa, temporibus a minus dicta
+                        necessitatibus!
+                        <a href="#">więcej</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="post__footer">
+                    <img src="./images/icons/smile.svg" alt="Add comment" />
+                    <input type="text" placeholder="Dodaj komentarz..." />
+                  </div>
+                </div>
+              </article>
+
+              <article class="post">
+                <div class="post__header">
+                  <div class="user-details">
+                    <div class="user-details__img">
+                      <div class="image-square image-square--small is-active">
+                        <img
+                          src="./images/users/cristiano.jpeg"
+                          alt="Cristiano"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="user-details__content">
+                      <h3>Cristiano</h3>
+                      <p>Kraków, Polska</p>
+                    </div>
+                  </div>
+
+                  <a href="#">
+                    <img src="./images/icons/menu.svg" alt="Menu" />
+                  </a>
+                </div>
+
+                <div class="post__content">
+                  <div class="post__img">
+                    <img
+                      src="./images/photos/presentation.jpeg"
+                      alt="Targi e-commerce"
+                    />
+                  </div>
+
+                  <div class="post__details">
+                    <div class="post__actions">
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/heart.svg" alt="Like" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/comment.svg" alt="Comment" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/send.svg" alt="Share" />
+                      </a>
+                    </div>
+
+                    <div class="post__comments">
+                      <p>
+                        <strong>Liczba polubień: 2</strong>
+                      </p>
+
+                      <p class="post__comments-comment">
+                        <strong>Will Smith:</strong>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem sint veritatis omnis, quos magni ducimus enim
+                        officia praesentium itaque soluta ipsam delectus,
+                        voluptate quod culpa, temporibus a minus dicta
+                        necessitatibus!
+                        <a href="#">więcej</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="post__footer">
+                    <img src="./images/icons/smile.svg" alt="Add comment" />
+                    <input type="text" placeholder="Dodaj komentarz..." />
+                  </div>
+                </div>
+              </article>
+
+              <article class="post hidden">
+                <div class="post__header">
+                  <div class="user-details">
+                    <div class="user-details__img">
+                      <div class="image-square image-square--small is-active">
+                        <img
+                          src="./images/users/cristiano.jpeg"
+                          alt="Cristiano"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="user-details__content">
+                      <h3>Cristiano</h3>
+                      <p>Kraków, Polska</p>
+                    </div>
+                  </div>
+
+                  <a href="#">
+                    <img src="./images/icons/menu.svg" alt="Menu" />
+                  </a>
+                </div>
+
+                <div class="post__content">
+                  <div class="post__img">
+                    <img
+                      src="./images/photos/placeholder.png"
+                      alt="Shoper placeholder"
+                    />
+                  </div>
+
+                  <div class="post__details">
+                    <div class="post__actions">
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/heart.svg" alt="Like" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/comment.svg" alt="Comment" />
+                      </a>
+
+                      <a href="#" class="post__actions-item">
+                        <img src="./images/icons/send.svg" alt="Share" />
+                      </a>
+                    </div>
+
+                    <div class="post__comments">
+                      <p>
+                        <strong>Liczba polubień: 2</strong>
+                      </p>
+
+                      <p class="post__comments-comment">
+                        <strong>Will Smith:</strong>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem sint veritatis omnis, quos magni ducimus enim
+                        officia praesentium itaque soluta ipsam delectus,
+                        voluptate quod culpa, temporibus a minus dicta
+                        necessitatibus!
+                        <a href="#">więcej</a>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="post__footer">
+                    <img src="./images/icons/smile.svg" alt="Add comment" />
+                    <input type="text" placeholder="Dodaj komentarz..." />
+                  </div>
+                </div>
+              </article>
+
+              <article class="post post--loader">Załaduj więcej...</article>
+            </div>
+
+            <div class="content-wrapper__aside">
+              <div class="content-wrapper__aside-user">
+                <div class="user-details user-details--big">
+                  <div class="user-details__img">
+                    <div class="image-square has-border">
+                      <img src="./images/users/user.jpeg" alt="User" />
+                    </div>
+                  </div>
+
+                  <div class="user-details__content">
+                    <h3>Mark_Shoper</h3>
+                    <p>Mark Shopson</p>
+                  </div>
+                </div>
+
+                <a href="#"><strong>Przełącz</strong></a>
+              </div>
+
+              <div class="content-wrapper__aside-suggestions">
+                <div class="suggestion-box">
+                  <div class="suggestion-box__header">
+                    <h2>Propozycje dla Ciebie</h2>
+                    <a href="#">Zobacz wszystkie</a>
+                  </div>
+
+                  <div class="suggestion-item">
+                    <div class="user-details">
+                      <div class="user-details__img">
+                        <div
+                          class="image-square image-square--small has-border"
+                        >
+                          <img src="./images/users/joshua.jpeg" alt="Joshua" />
+                        </div>
+                      </div>
+
+                      <div class="user-details__content">
+                        <h3>Joshua Deep</h3>
+                        <p>Nowy na Instagramie</p>
+                      </div>
+                    </div>
+
+                    <a class="suggestion-item__link" href="#">Obserwuj</a>
+                  </div>
+
+                  <div class="suggestion-item">
+                    <div class="user-details">
+                      <div class="user-details__img">
+                        <div class="image-square image-square--small is-active">
+                          <img src="./images/users/sophie.jpeg" alt="Sophie" />
+                        </div>
+                      </div>
+
+                      <div class="user-details__content">
+                        <h3>Sophie Lee</h3>
+                        <p>Obserwowana przez John</p>
+                      </div>
+                    </div>
+
+                    <a class="suggestion-item__link" href="#">Obserwuj</a>
+                  </div>
+
+                  <div class="suggestion-item">
+                    <div class="user-details">
+                      <div class="user-details__img">
+                        <div
+                          class="image-square image-square--small has-border"
+                        >
+                          <img src="./images/users/betty.jpeg" alt="Betty" />
+                        </div>
+                      </div>
+
+                      <div class="user-details__content">
+                        <h3>Ugly Betty</h3>
+                        <p>Obserwowana przez Mark</p>
+                      </div>
+                    </div>
+
+                    <a class="suggestion-item__link" href="#">Obserwuj</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container container--narrow">
+        <nav class="page-footer__nav">
+          <a href="#">Informacje</a>
+          <a href="#">Pomoc</a>
+          <a href="#">Prasa</a>
+          <a href="#">Pomoc</a>
+          <a href="#">Regulamin</a>
+          <a href="#">Lokalizacje</a>
+          <a href="#">Język</a>
+        </nav>
+
+        <p class="page-footer__copyrights">© 2022 Shopstagram</p>
+      </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
