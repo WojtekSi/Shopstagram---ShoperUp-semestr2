@@ -1,17 +1,17 @@
 /* PAGE NAV */
 .page-nav {
     display: flex;
-}
 
-.page-nav__item  {
-    flex-shrink: 0;
-    margin-right: 20px;
-}
+    &__item  {
+        flex-shrink: 0;
+        margin-right: 20px;
 
-.page-nav__item:last-child {
-    margin-right: 0;
-}
+        &:last-child {
+            margin-right: 0;
+        }
 
-.page-nav__item img {
-    display: block;
+        img {
+            display: block;
+        }
+    }
 }

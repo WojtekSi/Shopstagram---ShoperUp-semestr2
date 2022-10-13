@@ -27,10 +27,9 @@ ul {
 a {
     text-decoration: none;
     color: #3095F6;
-}
-
-a:hover {
-    text-decoration: underline;
+    &:hover{
+        text-decoration: underline;
+    }
 }
 
 .hidden {

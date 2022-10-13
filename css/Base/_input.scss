@@ -3,11 +3,10 @@ input {
     padding: 3px 15px;
     border: 0;
     border-radius: 8px;
+    &:focus{
+        outline: none;
+    }
     
-}
-
-input:focus {
-    outline: none;
 }
 
 .search-input {

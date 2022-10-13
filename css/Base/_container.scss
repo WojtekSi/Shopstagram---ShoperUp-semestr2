@@ -2,8 +2,8 @@
     max-width: 1200px;
     padding: 0 10px;
     margin: 0 auto;
-}
 
-.container--narrow {
-    max-width: 1050px;
+    &--narrow{
+        max-width: 1050px;
+    }
 }

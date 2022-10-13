@@ -7,27 +7,28 @@
     height: 56px;
     border-radius: 100%;
     overflow: hidden;
-}
 
-.image-square--small {
-    width: 32px;
-    height: 32px;
-}
+    
+    &--small {
+        width: 32px;
+        height: 32px;
+    }
 
-.image-square--tiny {
-    width: 24px;
-    height: 24px;
-}
+    &--tiny {
+        width: 24px;
+        height: 24px;
+    }
 
-.image-square.has-border {
-    border: 1px solid #dbdbdb;
-}
+    &.has-border {
+        border: 1px solid #dbdbdb;
+    }
 
-.image-square.is-active {
-    border: 2px solid #DD2A7C;
-}
+    &.is-active {
+        border: 2px solid #DD2A7C;
+    }
 
-.image-square.is-active img {
-    border: 1px solid #ffffff;
-    border-radius: 100%;
+    &.is-active img {
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+    }
 }
