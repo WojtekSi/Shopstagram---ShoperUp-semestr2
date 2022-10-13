@@ -3,8 +3,7 @@
     display: flex;
     align-items: center;
     justify-self: center;
-    width: 56px;
-    height: 56px;
+    @include square(56px);
     border-radius: 100%;
     overflow: hidden;
 
@@ -20,15 +19,19 @@
     }
 
     &.has-border {
-        border: 1px solid #dbdbdb;
+        //border: 1px solid #dbdbdb;
+        @include border (1px, solid, #dbdbdb);
+
     }
 
     &.is-active {
-        border: 2px solid #DD2A7C;
+        //border: 2px solid #DD2A7C;
+        @include border (2px, solid, #DD2A7C);
     }
 
     &.is-active img {
-        border: 1px solid #ffffff;
+        //border: 1px solid #ffffff;
+        @include border (1px, solid, #ffffff);
         border-radius: 100%;
     }
 }

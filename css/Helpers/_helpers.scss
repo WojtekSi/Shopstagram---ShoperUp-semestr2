@@ -1,0 +1,10 @@
+@mixin square($width) {
+    width: $width;
+    height: $width;    
+}
+
+@mixin border ($size, $type, $color) {
+    border: $size $type $color ;
+}
+
+/* użyłem go w IMAGE SQUARE */
