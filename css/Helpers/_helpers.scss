@@ -1,6 +1,6 @@
-@mixin square($width) {
+@mixin square($width, $height:$width) {
     width: $width;
-    height: $width;    
+    height: $height;    
 }
 
 @mixin border ($size, $type, $color) {
