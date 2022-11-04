@@ -1,0 +1,37 @@
+.content-wrapper {
+  @media screen and (min-width: 800px) {
+    display: flex;
+    margin: 0 -15px;
+  }
+
+  &__main,
+  &__aside {
+    @media screen and (min-width: 800px) {
+      padding: 0 15px;
+    }
+  }
+
+  &__main {
+    @media screen and (min-width: 800px) {
+      width: 70%;
+    }
+  }
+
+  &__aside {
+    display: none;
+    
+    @media screen and (min-width: 800px) {
+      display: block;
+      flex: 1;
+    }
+  }
+
+  &__aside-user {
+    @media screen and (min-width: 800px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+  }
+}

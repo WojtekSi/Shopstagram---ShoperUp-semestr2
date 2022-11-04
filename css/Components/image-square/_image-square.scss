@@ -1,0 +1,31 @@
+.image-square {
+    @include square(56);
+
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border-radius: 100%;
+    overflow: hidden;
+
+    &.has-border {
+        border: 1px solid $color-gray;
+    }
+
+    &.is-active {
+        @include border(2, solid, $color-primary);
+
+        img {
+            border: 1px solid $color-white;
+            border-radius: 100%;
+        }
+    }
+
+    &--small {
+        @include square(32);
+    }
+
+    &--tiny {
+        @include square(24);
+    }
+}
+

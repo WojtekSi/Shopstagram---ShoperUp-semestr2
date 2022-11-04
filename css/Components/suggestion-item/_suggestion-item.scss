@@ -1,4 +1,3 @@
-/* SUGGESTION ITEM */
 .suggestion-item {
     display: flex;
     align-items: center;
@@ -6,11 +5,11 @@
     margin-bottom: 10px;
     cursor: pointer;
 
-    :last-child {
+    &:last-child {
         margin-bottom: 0;
     }
-    
-    __link {
+
+    &__link {
         font-size: 12px;
         font-weight: bold;
     }

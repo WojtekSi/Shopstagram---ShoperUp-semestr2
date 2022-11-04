@@ -3,7 +3,11 @@
     padding: 0 10px;
     margin: 0 auto;
 
-    &--narrow{
+    &--narrow {
         max-width: 1050px;
+    }
+
+    &__aside {
+        display: none;
     }
 }

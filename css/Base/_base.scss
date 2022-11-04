@@ -9,7 +9,7 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fafafa;
+    background-color: $color-white;
     font-size: 14px;
 }
 
@@ -27,11 +27,24 @@ ul {
 a {
     text-decoration: none;
     color: #3095F6;
-    &:hover{
-        text-decoration: underline;
-    }
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .hidden {
     display: none;
+}
+
+input {
+    height: 36px;
+    padding: 3px 15px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+input:focus {
+    outline: none;
 }

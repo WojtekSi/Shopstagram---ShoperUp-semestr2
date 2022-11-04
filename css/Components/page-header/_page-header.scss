@@ -1,11 +1,9 @@
-/* PAGE HEADER */
 .page-header {
     margin-bottom: 30px;
     padding: 10px 0;
-    background-color: #ffffff;
-    border-bottom: 1px solid #dbdbdb;
+    background-color: $color-white;
+    border-bottom: 1px solid $color-gray;
 
-    
     &__wrapper {
         display: flex;
         align-items: center;
@@ -15,7 +13,7 @@
     &__logo {
         flex-shrink: 0;
 
-        & img {
+        img {
             display: block;
         }
     }
@@ -24,9 +22,7 @@
         display: none;
 
         @media screen and (min-width: 800px) {
-                display: block;
+            display: block;
         }
     }
-
 }
-
