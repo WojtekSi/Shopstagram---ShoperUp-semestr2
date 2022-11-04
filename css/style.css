@@ -319,7 +319,7 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fff;
+  background-color: #f5f4d7;
   font-size: 14px;
 }
 
@@ -416,7 +416,7 @@ input:focus {
   margin-bottom: 30px;
   padding: 10px 0;
   background-color: #fff;
-  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid #951f2b;
 }
 .page-header__wrapper {
   display: flex;
@@ -462,7 +462,7 @@ input:focus {
   overflow: hidden;
 }
 .image-square.has-border {
-  border: 1px solid #dbdbdb;
+  border: 1px solid #951f2b;
 }
 .image-square.is-active {
   border: 2px solid #dd2a7c;
@@ -484,7 +484,7 @@ input:focus {
   margin-bottom: 20px;
   padding: 15px 0;
   background-color: #fff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #951f2b;
   border-radius: 7px;
 }
 .stories-box__list {
@@ -546,7 +546,7 @@ input:focus {
 .post {
   margin-bottom: 20px;
   background-color: #fff;
-  border: 1px solid #dbdbdb;
+  border: 1px solid #951f2b;
   border-radius: 7px;
 }
 .post:last-child {
