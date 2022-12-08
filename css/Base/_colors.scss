@@ -7,3 +7,5 @@ $color-gray--light: #efefef !default;
 $color-gray--lighter: #fafafa !default;
 $color-gray--dark: #969696 !default;
 
+$gradient-in-background: linear-gradient($color-white, rgba($color-primary, 0.1));
+
