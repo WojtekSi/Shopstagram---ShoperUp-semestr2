@@ -1,11 +1,9 @@
-/* POST */
 .post {
     margin-bottom: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dbdbdb;
+    background-color: $color-white;
+    border: 1px solid $color-gray;
     border-radius: 7px;
 
-        
     &:last-child {
         margin-bottom: 0;
     }
@@ -25,32 +23,29 @@
         display: flex;
         align-items: center;
         margin-bottom: 15px;
+    }
 
-        &-item {
-            margin-right: 20px;
-        
-        
-            img {
-                display: block;
+    &__actions-item {
+        margin-right: 20px;
 
-                
-            }
-            
-            &:last-child {
-                margin-right: 0;
-            }
+        &:last-child {
+            margin-right: 0;
+        }
+
+        img {
+            display: block;
         }
     }
 
     &__comments-comment a {
-        color: #969696;
+        color: $color-gray--dark;
     }
 
     &__footer {
         display: flex;
         align-items: center;
         padding: 15px;
-        border-top: 1px solid #efefef;
+        border-top: 1px solid $color-gray--light;
     }
 
     &--loader {

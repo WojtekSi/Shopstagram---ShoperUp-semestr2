@@ -1,3 +1,5 @@
+$page-bg-color: $color-white !default;
+
 * {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -9,7 +11,7 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #fafafa;
+    background-color: $page-bg-color;
     font-size: 14px;
 }
 
@@ -27,11 +29,24 @@ ul {
 a {
     text-decoration: none;
     color: #3095F6;
-    &:hover{
-        text-decoration: underline;
-    }
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .hidden {
     display: none;
+}
+
+input {
+    height: 36px;
+    padding: 3px 15px;
+    border: 0;
+    border-radius: 8px;
+    
+}
+
+input:focus {
+    outline: none;
 }

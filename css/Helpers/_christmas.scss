@@ -1,0 +1,15 @@
+$color-gray: #951f2b;
+$page-bg-color: #f5f4d7;
+
+.page-header__logo::after {
+    content: "";
+    background-image: url('./../images/christmas-theme/tree.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+
+.page-header__logo img{
+    display: inline-block !important;
+}

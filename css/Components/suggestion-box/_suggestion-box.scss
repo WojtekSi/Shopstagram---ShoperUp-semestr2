@@ -1,0 +1,20 @@
+.suggestion-box {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        font-size: 12px;
+
+        h2 {
+            margin: 0;
+            font-size: inherit;
+            color: $color-gray--dark;
+        }
+
+        a {
+            color: $color-black;
+            font-weight: bold;
+        }
+    }
+}
