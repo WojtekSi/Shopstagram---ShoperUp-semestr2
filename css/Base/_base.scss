@@ -1,4 +1,4 @@
-$page-bg-color: $color-white !default;
+$page-bg-color: $gradient-in-background !default;
 
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: $page-bg-color;
+    background: $page-bg-color;
     font-size: 14px;
 }
 

@@ -3,6 +3,9 @@
     padding: 10px 0;
     background-color: $color-white;
     border-bottom: 1px solid $color-gray;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 15px 30px -18px $color-gray;
 
     &__wrapper {
         display: flex;
@@ -12,7 +15,12 @@
 
     &__logo {
         flex-shrink: 0;
-
+        
+        &::after{
+            content: "BETA";
+            color: $color-gray;
+        }
+        
         img {
             display: block;
         }
