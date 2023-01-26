@@ -3,4 +3,5 @@ const hiddenPost = document.querySelector(".post.hidden");
 
 postLoaderButton.addEventListener("click", function() {
     hiddenPost.classList.remove("hidden");
+    postLoaderButton.classList.add("hidden");
 });
